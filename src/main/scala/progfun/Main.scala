@@ -1,86 +1,204 @@
 package fr.esgi.al.funprog
 
-import progfun.{Cardinal, Mower, Wore}
+import progfun.*
 
+import scala.::
 import scala.annotation.tailrec
 import scala.sys.exit
-
 
 final case class GardenState(map: List[List[Boolean]], wore: Wore)
 @main
 def Main(): Unit = {
-  println("Ici le programme principal")
-
-  val content = List("5 5", " 1 2 N ", "GAGAGAGAA")
-  val map: List[List[Boolean]] = content match {
-    case head :: tail => Garden.createGarden(head)
-    // Traitement à effectuer
-    case Nil => exit(200)
-    // Traitement pour une liste vide
-  }
-
-  val wore: Wore = content match {
-    case head :: second :: tail =>
-      Garden.createWoreFromString(
-        second
-      )
-    case Nil =>
-      exit(100)
-    case List(_) => exit(1001)
-  }
-  //val path = "AADAADADDA"
-   val path = "GAGAGAGAA"
-  val gardenState = GardenState(map, wore)
-  val result = recursivite(path, gardenState)
-  println(result)
+  val content = List("5 5", " 1 2 N ", "GAGAGAGAA", "3 3 E", "AADAADADDA")
+  start(content)
 
 }
 
-def readTxt(listString: List[String]): Unit = {
-  val mapString = listString match {
-    case head :: tail => head
-    case  _ => exit(100)
+def start(line: List[String]): Unit = {
+  val result = startWore(line)
+  display(result)
+}
+
+def startWore(line: List[String]): ContentFile = {
+  val point: Point = line match {
+    case head :: tail => parseGarden(head)
+    case Nil          => exit(200)
   }
-  val garden = Garden.createGarden(mapString)
-  val listContent = CreateListWithNoGarden(listString)
+  val map = List.fill(point.x+1)(List.fill(point.y+1)(false))
+  val restWithNoGarden = CreateListWithNoGarden(line)
+  val sousListes = restWithNoGarden.grouped(2).toList
+  val listWoreWithContent =
+    sousListes.map(content => createWoreWithContent(content))
+  val listWoreWithContentReverse = recursive(listWoreWithContent, map, List.empty[WoreFinish]).reverse
+  ContentFile(limite = point, tondeuses = listWoreWithContentReverse)
+}
+
+def display(contentFile: ContentFile): Unit = {
+  for (wore <- contentFile.tondeuses) {
+    println(
+      s"${wore.debut.point.x}  ${wore.debut.point.y} ${wore.debut.orientation}"
+    )
+    println(
+      s"${wore.finish.point.x}  ${wore.finish.point.y} ${wore.finish.orientation}"
+    )
+    println(s"${wore.instruction}")
+  }
+}
+
+@tailrec
+def recursive(
+    listWoreWithContent: List[WoreWithContent],
+    map: List[List[Boolean]],
+    listWoreFinish: List[WoreFinish]): List[WoreFinish] = {
+  listWoreWithContent match {
+    case head :: tail => {
+      val gardenState = run(head, map)
+      val woreFinish =
+        createWoreFinish(head.wore, gardenState.wore, head.content)
+      recursive(tail, gardenState.map, woreFinish :: listWoreFinish)
+    }
+    case Nil => listWoreFinish
+  }
+}
+
+def createWoreFinish(
+    woreStart: Wore,
+    woreFinish: Wore,
+    instructionString: String): WoreFinish = {
+  val instruction = createListCharWithString(instructionString)
+  val debut =
+    WoreOrientation(Point(woreStart.x, woreStart.y), woreStart.orientation)
+  val finish =
+    WoreOrientation(Point(woreFinish.x, woreFinish.y), woreFinish.orientation)
+  WoreFinish(debut, instruction, finish)
+}
+
+def run(
+    woreWithContent: WoreWithContent,
+    map: List[List[Boolean]]): GardenState = {
+  val gardenState = GardenState(map, woreWithContent.wore)
+  recursivite(woreWithContent.content, gardenState)
+}
+
+def createWoreWithContent(list: List[String]): WoreWithContent = {
+  val woreListContent = CreateListWore(list)
+  val wore = woreListContent match {
+    case head :: tail => createWore(head)
+    case _            => exit(300)
+  }
+  val content = woreListContent match {
+    case head :: second :: tail => second
+    case _                      => exit(300)
+  }
+  WoreWithContent(wore, content)
+}
+
+def createWore(input: String): Wore = {
+  val woreListChar = createListCharWithString(input)
+  val listInt = groupOptions(createListIsInt(woreListChar))
+  val cardinal = mapListIntoCardinal(
+    groupOptionsString(createListIsString(woreListChar))
+  )
+  listInt match {
+    case head :: second :: Nil => Wore(head.toInt, second.toInt, cardinal)
+    case _                     => exit(200)
+  }
 
 }
 
 def CreateListWore(listString: List[String]): List[String] = {
   listString match {
+    case head :: second :: Nil  => List(head, second)
     case head :: second :: tail => List(head, second)
-    case head :: second :: Nil => List(head, second)
-    case _ => exit(300)
+    case _                      => exit(300)
   }
 }
 
+def createListCharWithString(input: String): List[Char] = {
+  input.toList
+}
 
-/*def createPosition(position: String): Wore = {
-  val parts : List[String]  = position.split(" ").toList
-  Wore(
-    parts[0].toInt,
-    parts[1].toInt
-    createCardinal(parts(2))
-  )
-}*/
+def createListIsInt(charList: List[Char]): List[Option[Int]] = {
 
+  for {
+    c <- charList
+  } yield {
+    if (c.isDigit) {
+      Option(c.toString.toInt)
+    } else {
+      Option.empty[Int]
+    }
+  }
 
+}
 
+def createListIsString(input: List[Char]): List[Option[String]] = {
+  for {
+    c <- input
+  } yield {
+    if (c == 78 || c == 69 || c == 87 || c == 83) {
+      Option(c.toString)
+    } else {
+      Option.empty[String]
+    }
+  }
 
+}
 
-def CreateListFinish(list: List[String]) : List[String] = {
+def groupOptions(list: List[Option[Int]]): List[String] = {
+  list
+    .foldRight(List[List[Option[Int]]]()) { (current, acc) =>
+      current match {
+        case Some(_) =>
+          acc match {
+            case head :: tail => (current :: head) :: tail
+            case Nil          => List(List(current))
+          }
+        case None => List.empty :: acc
+      }
+    }
+    .filter(_.nonEmpty)
+    .map(_.flatten)
+    .map(_.map(_.toString).mkString)
+}
+
+def CreateListFinish(list: List[String]): List[String] = {
   list match {
     case head :: second :: tail => tail
-    case head :: second :: Nil => List.empty[String]
-    case _ => exit(600)
+    case _                      => exit(600)
   }
+}
+
+def mapListIntoCardinal(list: List[String]): Cardinal = {
+  list match {
+    case head :: Nil => createCardinal(head.charAt(0))
+    case _           => exit(201)
+  }
+
 }
 
 def CreateListWithNoGarden(list: List[String]): List[String] = {
   list match {
     case head :: tail => tail
-    case _ => exit(200)
+    case _            => exit(200)
   }
+}
+
+def groupOptionsString(list: List[Option[String]]): List[String] = {
+  list
+    .foldRight(List[List[Option[String]]]()) { (current, acc) =>
+      current match {
+        case Some(_) =>
+          acc match {
+            case head :: tail => (current :: head) :: tail
+            case Nil          => List(List(current))
+          }
+        case None => List.empty :: acc
+      }
+    }
+    .filter(_.nonEmpty)
+    .map(_.flatten)
+    .map(_.mkString)
 }
 
 @tailrec
@@ -89,6 +207,7 @@ def recursivite(path: String, gardenState: GardenState): GardenState = {
     s"test ${gardenState.wore.x}  ${gardenState.wore.y} ${gardenState.wore.orientation}"
   )
   if (path.isEmpty) {
+    println("---next---")
     val map = initialisation(gardenState.wore, gardenState.map)
     GardenState(map, gardenState.wore)
   } else {
@@ -98,63 +217,25 @@ def recursivite(path: String, gardenState: GardenState): GardenState = {
   }
 }
 
-object Garden {
-  def createGarden(input: String): List[List[Boolean]] = {
-    val size: Int = Option(input).map(s => s.trim.nn.length).getOrElse(0)
-    if (size == 3) then
-      val length = createSide(input(0).toString)
-      val height = createSide(input(2).toString)
-      List.fill(length)(List.fill(height)(false))
-    else sys.exit(200)
+
+def parseGarden(input:String): Point = {
+  val gardenListChar = createListCharWithString(input)
+  val listInt = groupOptions(createListIsInt(gardenListChar))
+  listInt match {
+    case head :: second :: Nil => Point(head.toInt, second.toInt)
+    case _ => exit(600)
   }
+}
 
-  private def createSide(input: String): Int = {
-    try {
-      input.toInt
-    } catch {
-      case e: NumberFormatException =>
-        println(s"Impossible de convertir '$input' en entier.")
-        exit(500)
-    }
+
+def createSidePlus1(input: String): Int = {
+  try {
+    input.toInt + 1
+  } catch {
+    case e: NumberFormatException =>
+      println(s"Impossible de convertir '$input' en entier.")
+      exit(500)
   }
-
-  def createWoreFromString(input: String): Wore = {
-    //val parts = List("3", "3", "E") // 3 3 E//1 2 N
-    val parts = List("1", "2", "N") //3 3 E//1 2 N
-    //val parts = position.split(" ")
-    //Mower(Point(parts(0).toInt, parts(1).toInt), parseOrientation(parts(2)))
-    if (parts.nn.length != 3)
-      sys.exit(200)
-    parts match {
-      case head :: second :: three :: tail =>
-        try {
-          val x = head.toInt
-          val y = second.toInt
-
-          new Wore(x, y, createManifest(three))
-        } catch {
-          case e: NumberFormatException =>
-            println("Les coordonnées doivent être des entiers.")
-            sys.exit(500)
-        }
-      case List(_, _) => exit(300)
-      case List(_)    => exit(600)
-      case Nil        => exit(200)
-    }
-
-  }
-
-
-  private def createManifest(input: String): Cardinal = {
-    input match {
-      case "N"       => Cardinal.N
-      case "E"       => Cardinal.E
-      case "W"       => Cardinal.W
-      case "S"       => Cardinal.S
-      case _: String => exit(0)
-    }
-  }
-
 }
 
 def initialisation(
@@ -205,7 +286,7 @@ def action(command: Char, gardenState: GardenState): GardenState = {
       val wore = changeOrientationWore(Mower.L, gardenState.wore)
       GardenState(wore = wore, map = gardenState.map)
     case 'D' =>
-      val wore = changeOrientationWore(Mower.L, gardenState.wore)
+      val wore = changeOrientationWore(Mower.R, gardenState.wore)
       GardenState(wore = wore, map = gardenState.map)
     case 'A' => {
       moveForward(gardenState)
@@ -213,6 +294,7 @@ def action(command: Char, gardenState: GardenState): GardenState = {
     case _ => exit(2)
   }
 }
+
 def changeOrientationWore(move: Mower, wore: Wore): Wore = {
   val newOrientation = (move, wore.orientation) match {
     case (Mower.L, Cardinal.E) => Cardinal.N

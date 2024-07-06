@@ -1,1 +1,0 @@
-GardenState(List(List(false, false, false, false, false), List(false, false, false, false, true), List(false, false, false, false, false), List(false, false, false, false, false), List(false, false, false, false, false))

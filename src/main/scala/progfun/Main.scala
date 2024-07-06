@@ -1,17 +1,20 @@
 package fr.esgi.al.funprog
 
+import better.files.File
 import progfun.*
 
 import scala.::
 import scala.annotation.tailrec
+import scala.io.StdIn
 import scala.sys.exit
 
 final case class GardenState(map: List[List[Boolean]], wore: Wore)
 @main
 def Main(): Unit = {
-  val content = List("5 5", " 1 2 N ", "GAGAGAGAA", "3 3 E", "AADAADADDA")
-  start(content)
-
+  println(":> Enter your file txt: ")
+  val file = StdIn.readLine()
+  val f = File( file)
+  start(f.lines.toList)
 }
 
 def start(line: List[String]): Unit = {
@@ -24,12 +27,13 @@ def startWore(line: List[String]): ContentFile = {
     case head :: tail => parseGarden(head)
     case Nil          => exit(200)
   }
-  val map = List.fill(point.x+1)(List.fill(point.y+1)(false))
+  val map = List.fill(point.x + 1)(List.fill(point.y + 1)(false))
   val restWithNoGarden = CreateListWithNoGarden(line)
   val sousListes = restWithNoGarden.grouped(2).toList
   val listWoreWithContent =
     sousListes.map(content => createWoreWithContent(content))
-  val listWoreWithContentReverse = recursive(listWoreWithContent, map, List.empty[WoreFinish]).reverse
+  val listWoreWithContentReverse =
+    recursive(listWoreWithContent, map, List.empty[WoreFinish]).reverse
   ContentFile(limite = point, tondeuses = listWoreWithContentReverse)
 }
 
@@ -172,7 +176,7 @@ def CreateListFinish(list: List[String]): List[String] = {
 def mapListIntoCardinal(list: List[String]): Cardinal = {
   list match {
     case head :: Nil => createCardinal(head.charAt(0))
-    case _           => exit(201)
+    case _           => exit(230)
   }
 
 }
@@ -217,16 +221,14 @@ def recursivite(path: String, gardenState: GardenState): GardenState = {
   }
 }
 
-
-def parseGarden(input:String): Point = {
+def parseGarden(input: String): Point = {
   val gardenListChar = createListCharWithString(input)
   val listInt = groupOptions(createListIsInt(gardenListChar))
   listInt match {
     case head :: second :: Nil => Point(head.toInt, second.toInt)
-    case _ => exit(600)
+    case _                     => exit(600)
   }
 }
-
 
 def createSidePlus1(input: String): Int = {
   try {

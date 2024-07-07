@@ -1,12 +1,22 @@
 limite:
   x: 5
   y: 5
+  tondeuses:
   - debut:
       point:
         x: 1
         y: 2
       orientation: N
-    instruction: List(G, A, G, A, G, A, G, A, A)
+    instruction: 
+       - G
+       - A
+       - G
+       - A
+       - G
+       - A
+       - G
+       - A
+       - A
     finish:
       point:
         x: 1
@@ -17,7 +27,17 @@ limite:
         x: 3
         y: 3
       orientation: E
-    instruction: List(A, A, D, A, A, D, A, D, D, A)
+    instruction: 
+       - A
+       - A
+       - D
+       - A
+       - A
+       - D
+       - A
+       - D
+       - D
+       - A
     finish:
       point:
         x: 5

@@ -1,6 +1,4 @@
-package funprog
-
-import progfun.{Point, Wore, WoreFinish, WoreWithContent}
+package progfun
 
 import scala.annotation.tailrec
 import scala.io.StdIn.readLine

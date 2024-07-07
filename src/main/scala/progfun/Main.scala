@@ -1,16 +1,7 @@
-package funprog
+package progfun
 
 import better.files.File
-import progfun.{
-  Cardinal,
-  ContentFile,
-  Mower,
-  Point,
-  Wore,
-  WoreFinish,
-  WoreOrientation,
-  WoreWithContent
-}
+
 import upickle.legacy.write
 
 import scala.::
@@ -41,7 +32,6 @@ def startModeFull(): Unit = {
 def createFileJson(contentFile: ContentFile, path: String): Unit = {
   val file = File(path).createIfNotExists()
   val jsonString = write[ContentFile](contentFile)
-  // To overwrite the file with new content
   file.overwrite(jsonString)
 }
 
@@ -409,6 +399,7 @@ def convertToYaml(contentFile: ContentFile): String = {
        |  x: ${contentFile.limite.x}
        |  y: ${contentFile.limite.y}""".stripMargin
 
+  val tondeuse = "  tondeuses:"
   val tondeusesYaml = contentFile.tondeuses
     .map { wore =>
       s"""  - debut:
@@ -416,7 +407,7 @@ def convertToYaml(contentFile: ContentFile): String = {
        |        x: ${wore.debut.point.x}
        |        y: ${wore.debut.point.y}
        |      orientation: ${wore.debut.orientation}
-       |    instruction: ${wore.instruction}
+       |    instruction: \n${transformListToStringForYaml(wore.instruction)}
        |    finish:
        |      point:
        |        x: ${wore.finish.point.x}
@@ -425,17 +416,22 @@ def convertToYaml(contentFile: ContentFile): String = {
     }
     .mkString("\n")
 
-  s"$limiteYaml\n$tondeusesYaml"
+  s"$limiteYaml\n$tondeuse\n$tondeusesYaml"
 }
- 
+
+def transformListToStringForYaml(instructions: List[Char]): String = {
+  instructions.map{ instruction =>
+    s"       - ${instruction}"
+  }.mkString("\n")
+}
+
+
 def convertToCsv(contentFile: ContentFile): String = {
-  val header =
-    "debut_x,debut_y,debut_orientation,instruction,finish_x,finish_y,finish_orientation"
-  val rows = contentFile.tondeuses.map { wore =>
-    val instructions =
-      wore.instruction.mkString(",")
-    s"${wore.debut.point.x},${wore.debut.point.y},${wore.debut.orientation}," +
-      s"${instructions},${wore.finish.point.x},${wore.finish.point.y},${wore.finish.orientation}"
+  val header = "numéro;début_x;début_y;début_direction;fin_x;fin_y;fin_direction;instructions"
+  val rows = contentFile.tondeuses.zipWithIndex.map { case (wore, number) =>
+    val instructions = wore.instruction.mkString("")
+    s"${number+1};${wore.debut.point.x};${wore.debut.point.y};${wore.debut.orientation};" +
+      s"${wore.finish.point.x};${wore.finish.point.y};${wore.finish.orientation};$instructions"
   }
   (header :: rows).mkString("\n")
 }

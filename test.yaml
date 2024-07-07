@@ -6,8 +6,8 @@ limite:
       point:
         x: 1
         y: 2
-      orientation: N
-    instruction: 
+      direction: N
+    fin: 
        - G
        - A
        - G
@@ -17,17 +17,17 @@ limite:
        - G
        - A
        - A
-    finish:
+    fin:
       point:
         x: 1
         y: 3
-      orientation: N
+      direction: N
   - debut:
       point:
         x: 3
         y: 3
-      orientation: E
-    instruction: 
+      direction: E
+    fin: 
        - A
        - A
        - D
@@ -38,8 +38,8 @@ limite:
        - D
        - D
        - A
-    finish:
+    fin:
       point:
         x: 5
         y: 1
-      orientation: E
+      direction: E

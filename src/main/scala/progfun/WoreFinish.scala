@@ -3,9 +3,9 @@ package progfun
 import upickle.legacy.{macroW, ReadWriter, Writer}
 
 final case class WoreFinish(
-    debut: WoreOrientation,
-    instruction: List[Char],
-    finish: WoreOrientation
+                             debut: WoreOrientation,
+                             instructions: List[Char],
+                             fin: WoreOrientation
 ) derives ReadWriter
 
 object WoreFinish {

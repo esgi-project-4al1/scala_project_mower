@@ -63,12 +63,12 @@ def startWore(line: List[String]): ContentFile = {
 def display(contentFile: ContentFile): Unit = {
   for (wore <- contentFile.tondeuses) {
     println(
-      s"${wore.debut.point.x}  ${wore.debut.point.y} ${wore.debut.orientation}"
+      s"${wore.debut.point.x}  ${wore.debut.point.y} ${wore.debut.direction}"
     )
     println(
-      s"${wore.finish.point.x}  ${wore.finish.point.y} ${wore.finish.orientation}"
+      s"${wore.fin.point.x}  ${wore.fin.point.y} ${wore.fin.direction}"
     )
-    println(s"${wore.instruction}")
+    println(s"${wore.instructions}")
   }
 }
 
@@ -406,13 +406,13 @@ def convertToYaml(contentFile: ContentFile): String = {
        |      point:
        |        x: ${wore.debut.point.x}
        |        y: ${wore.debut.point.y}
-       |      direction: ${wore.debut.orientation}
-       |    instructions: \n${transformListToStringForYaml(wore.instruction)}
+       |      direction: ${wore.debut.direction}
+       |    fin: \n${transformListToStringForYaml(wore.instructions)}
        |    fin:
        |      point:
-       |        x: ${wore.finish.point.x}
-       |        y: ${wore.finish.point.y}
-       |      direction: ${wore.finish.orientation}""".stripMargin
+       |        x: ${wore.fin.point.x}
+       |        y: ${wore.fin.point.y}
+       |      direction: ${wore.fin.direction}""".stripMargin
     }
     .mkString("\n")
 
@@ -427,11 +427,11 @@ def transformListToStringForYaml(instructions: List[Char]): String = {
 
 
 def convertToCsv(contentFile: ContentFile): String = {
-  val header = "numéro;début_x;début_y;début_direction;fin_x;fin_y;fin_direction;instructions"
+  val header = "numéro;début_x;début_y;début_direction;fin_x;fin_y;fin_direction;fin"
   val rows = contentFile.tondeuses.zipWithIndex.map { case (wore, number) =>
-    val instructions = wore.instruction.mkString("")
-    s"${number+1};${wore.debut.point.x};${wore.debut.point.y};${wore.debut.orientation};" +
-      s"${wore.finish.point.x};${wore.finish.point.y};${wore.finish.orientation};$instructions"
+    val instructions = wore.instructions.mkString("")
+    s"${number+1};${wore.debut.point.x};${wore.debut.point.y};${wore.debut.direction};" +
+      s"${wore.fin.point.x};${wore.fin.point.y};${wore.fin.direction};$instructions"
   }
   (header :: rows).mkString("\n")
 }

@@ -1,7 +1,15 @@
 package progfun
 
-final class WoreFinish (
-    val debut: WoreOrientation,
-    val instruction: List[Char],
-    val finish: WoreOrientation
+import upickle.legacy.{ReadWriter, Writer, macroW}
+
+final case class WoreFinish (
+    debut: WoreOrientation,
+    instruction: List[Char],
+    finish: WoreOrientation
 )
+  derives ReadWriter
+
+
+object WoreFinish {
+  implicit val woreFinishWriter: Writer[WoreFinish] = macroW[WoreFinish]
+}

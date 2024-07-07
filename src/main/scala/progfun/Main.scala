@@ -1,7 +1,8 @@
 package fr.esgi.al.funprog
 
 import better.files.File
-import progfun.*
+import progfun.{Cardinal, ContentFile, Mower, Point, Wore, WoreFinish, WoreOrientation, WoreWithContent}
+import upickle.legacy.write
 
 import scala.::
 import scala.annotation.tailrec
@@ -17,9 +18,17 @@ def Main(): Unit = {
   start(f.lines.toList)
 }
 
+def createFileJson(contentFile: ContentFile, path: String ): Unit = {
+  val file = File(path).createIfNotExists()
+  val jsonString = write[ContentFile](contentFile)
+  // To overwrite the file with new content
+  file.overwrite(jsonString)
+}
+
 def start(line: List[String]): Unit = {
   val result = startWore(line)
   display(result)
+  createFileJson(result, "test.json")
 }
 
 def startWore(line: List[String]): ContentFile = {
@@ -71,9 +80,9 @@ def createWoreFinish(
     instructionString: String): WoreFinish = {
   val instruction = createListCharWithString(instructionString)
   val debut =
-    WoreOrientation(Point(woreStart.x, woreStart.y), woreStart.orientation)
+    WoreOrientation(Point(woreStart.x, woreStart.y), woreStart.orientation.toString)
   val finish =
-    WoreOrientation(Point(woreFinish.x, woreFinish.y), woreFinish.orientation)
+    WoreOrientation(Point(woreFinish.x, woreFinish.y), woreFinish.orientation.toString)
   WoreFinish(debut, instruction, finish)
 }
 

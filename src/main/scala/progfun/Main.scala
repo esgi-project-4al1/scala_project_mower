@@ -1,4 +1,4 @@
-package fr.esgi.al.funprog
+package funprog
 
 import better.files.File
 import progfun.{Cardinal, ContentFile, Mower, Point, Wore, WoreFinish, WoreOrientation, WoreWithContent}
@@ -12,11 +12,23 @@ import scala.sys.exit
 final case class GardenState(map: List[List[Boolean]], wore: Wore)
 @main
 def Main(): Unit = {
+  println(":> Enter streaming for streaming mode: ")
+  val args = StdIn.readLine()
+  args match {
+    case "streaming" => {
+      runModeStreaming()
+    }
+    case _ => startModeFull()
+  }
+}
+
+def startModeFull(): Unit = {
   println(":> Enter your file txt: ")
   val file = StdIn.readLine()
-  val f = File( file)
+  val f = File(file)
   start(f.lines.toList)
 }
+
 
 def createFileJson(contentFile: ContentFile, path: String ): Unit = {
   val file = File(path).createIfNotExists()
@@ -45,6 +57,7 @@ def startWore(line: List[String]): ContentFile = {
     recursive(listWoreWithContent, map, List.empty[WoreFinish]).reverse
   ContentFile(limite = point, tondeuses = listWoreWithContentReverse)
 }
+
 
 def display(contentFile: ContentFile): Unit = {
   for (wore <- contentFile.tondeuses) {

@@ -1,5 +1,11 @@
 package progfun
 
+import upickle.legacy.{ReadWriter, macroRW}
+
 import scala.collection.immutable.List
 
-final class ContentFile(val limite: Point, val tondeuses: List[WoreFinish])
+final case class ContentFile (limite: Point, tondeuses: List[WoreFinish])
+
+object ContentFile {
+  implicit val rw: ReadWriter[ContentFile] = macroRW
+}

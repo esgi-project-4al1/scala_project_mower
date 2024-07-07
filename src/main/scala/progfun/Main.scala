@@ -1,7 +1,8 @@
-package fr.esgi.al.funprog
+package funprog
 
 import better.files.File
-import progfun.*
+import progfun.{Cardinal, ContentFile, Mower, Point, Wore, WoreFinish, WoreOrientation, WoreWithContent}
+import upickle.legacy.write
 
 import scala.::
 import scala.annotation.tailrec
@@ -11,25 +12,35 @@ import scala.sys.exit
 final case class GardenState(map: List[List[Boolean]], wore: Wore)
 @main
 def Main(): Unit = {
+  println(":> Enter streaming for streaming mode: ")
+  val args = StdIn.readLine()
+  args match {
+    case "streaming" => {
+      runModeStreaming()
+    }
+    case _ => startModeFull()
+  }
+}
+
+def startModeFull(): Unit = {
   println(":> Enter your file txt: ")
   val file = StdIn.readLine()
   val f = File(file)
-  val contentFile = start1(f.lines.toList)
+  start(f.lines.toList)
+}
 
-  val yamlString = convertToCsv(contentFile)
-  writeYamlToFile(yamlString, "output.csv")
-  println(yamlString)
 
+def createFileJson(contentFile: ContentFile, path: String ): Unit = {
+  val file = File(path).createIfNotExists()
+  val jsonString = write[ContentFile](contentFile)
+  // To overwrite the file with new content
+  file.overwrite(jsonString)
 }
 
 def start(line: List[String]): Unit = {
   val result = startWore(line)
   display(result)
-}
-
-def start1(line: List[String]): ContentFile = {
-  val result1 = startWore(line)
-  result1
+  createFileJson(result, "test.json")
 }
 
 def startWore(line: List[String]): ContentFile = {
@@ -46,6 +57,7 @@ def startWore(line: List[String]): ContentFile = {
     recursive(listWoreWithContent, map, List.empty[WoreFinish]).reverse
   ContentFile(limite = point, tondeuses = listWoreWithContentReverse)
 }
+
 
 def display(contentFile: ContentFile): Unit = {
   for (wore <- contentFile.tondeuses) {
@@ -81,9 +93,9 @@ def createWoreFinish(
     instructionString: String): WoreFinish = {
   val instruction = createListCharWithString(instructionString)
   val debut =
-    WoreOrientation(Point(woreStart.x, woreStart.y), woreStart.orientation)
+    WoreOrientation(Point(woreStart.x, woreStart.y), woreStart.orientation.toString)
   val finish =
-    WoreOrientation(Point(woreFinish.x, woreFinish.y), woreFinish.orientation)
+    WoreOrientation(Point(woreFinish.x, woreFinish.y), woreFinish.orientation.toString)
   WoreFinish(debut, instruction, finish)
 }
 

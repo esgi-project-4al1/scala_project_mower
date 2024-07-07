@@ -1,15 +1,12 @@
 package progfun
 
-import upickle.legacy.{ReadWriter, Writer, macroW}
+import upickle.legacy.{macroW, ReadWriter, Writer}
 
-final case class Point (
-  x: Int,
-  y: Int
-)
-  derives ReadWriter
-
+final case class Point(
+    x: Int,
+    y: Int
+) derives ReadWriter
 
 object Point {
   implicit val pointWriter: Writer[Point] = macroW[Point]
 }
-

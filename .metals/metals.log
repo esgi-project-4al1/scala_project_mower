@@ -249,3 +249,1263 @@ INFOS: Unsupported notification method: $/setTrace
 2024.07.06 20:49:30 INFO  Shut down connection with build server.
 2024.07.06 20:49:30 INFO  Shut down connection with build server.
 2024.07.06 20:49:30 INFO  Exiting server
+2024.07.06 20:49:46 INFO  Started: Metals version 1.3.2 in folders 'C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower' for client Visual Studio Code 1.91.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@72a873bc]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@425fa87d]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@72a873bc]
+2024.07.06 20:49:47 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.06 20:49:48 INFO  Attempting to connect to the build server...
+2024.07.06 20:49:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.06 20:49:49 INFO  Attempting to connect to the build server...
+2024.07.06 20:49:49 INFO  Attempting to connect to the build server...
+2024.07.06 20:49:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\project\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.06 20:49:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.06 20:49:49 INFO  time: Connected to build server in 1.03s
+2024.07.06 20:49:49 INFO  Connected to Build server: Bloop v1.5.18
+2024.07.06 20:49:49 INFO  time: Imported build in 0.25s
+2024.07.06 20:50:01 INFO  time: indexed workspace in 11s
+2024.07.06 20:57:13 INFO  compiling root (12 scala sources)
+juil. 06, 2024 8:57:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 69
+2024.07.06 20:57:28 INFO  compiling root (12 scala sources)
+2024.07.06 20:57:35 INFO  time: compiled root in 7.41s
+juil. 06, 2024 8:57:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 91
+juil. 06, 2024 8:57:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 95
+2024.07.06 20:57:51 INFO  compiling root (1 scala source)
+2024.07.06 20:58:01 INFO  time: compiled root in 9.58s
+2024.07.06 20:58:11 INFO  compiling root (1 scala source)
+2024.07.06 20:58:19 INFO  time: compiled root in 7.28s
+2024.07.06 20:58:19 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:58:19 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:58:22 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:58:22 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:58:23 INFO  compiling root (1 scala source)
+2024.07.06 20:58:28 INFO  time: compiled root in 4.67s
+2024.07.06 20:58:28 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:58:37 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:58:45 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:58:52 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:58:58 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:58:59 INFO  compiling root (1 scala source)
+2024.07.06 20:59:02 INFO  time: compiled root in 2.62s
+2024.07.06 20:59:02 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:59:12 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:378: error: unclosed string interpolation
+      s"      orientation:
+        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:347)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.06 20:59:12 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:384: error: unclosed string interpolation
+      s"
+        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:347)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.06 20:59:12 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:59:17 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:59:26 INFO  compiling root (1 scala source)
+2024.07.06 20:59:26 INFO  time: compiled root in 0.74s
+2024.07.06 20:59:27 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+juil. 06, 2024 8:59:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 284
+2024.07.06 20:59:32 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:370: error: unclosed string interpolation
+    .addOne(s"
+              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:347)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.06 20:59:32 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:375: error: unclosed string literal
+        "
+        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:509)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.06 20:59:33 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:59:37 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:59:38 INFO  compiling root (1 scala source)
+2024.07.06 20:59:38 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 20:59:44 INFO  time: compiled root in 5.78s
+2024.07.06 21:00:30 INFO  compiling root (1 scala source)
+2024.07.06 21:00:30 INFO  time: compiled root in 0.28s
+2024.07.06 21:00:33 INFO  compiling root (1 scala source)
+2024.07.06 21:00:33 INFO  time: compiled root in 0.24s
+2024.07.06 21:00:55 INFO  compiling root (1 scala source)
+2024.07.06 21:00:55 INFO  time: compiled root in 0.64s
+2024.07.06 21:01:12 INFO  compiling root (1 scala source)
+2024.07.06 21:01:12 INFO  time: compiled root in 0.42s
+2024.07.06 21:01:15 INFO  compiling root (1 scala source)
+2024.07.06 21:01:16 INFO  time: compiled root in 1.36s
+2024.07.06 21:01:16 INFO  compiling root (1 scala source)
+2024.07.06 21:01:18 INFO  time: compiled root in 1.36s
+2024.07.06 21:01:43 INFO  compiling root (1 scala source)
+2024.07.06 21:01:43 INFO  time: compiled root in 0.39s
+juil. 06, 2024 9:01:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 551
+2024.07.06 21:01:59 INFO  compiling root (1 scala source)
+2024.07.06 21:01:59 INFO  time: compiled root in 0.34s
+2024.07.06 21:02:03 INFO  compiling root (1 scala source)
+2024.07.06 21:02:03 INFO  time: compiled root in 0.43s
+2024.07.06 21:02:37 INFO  compiling root (1 scala source)
+2024.07.06 21:02:37 INFO  time: compiled root in 0.36s
+2024.07.06 21:02:40 INFO  compiling root (1 scala source)
+2024.07.06 21:02:40 INFO  time: compiled root in 0.36s
+2024.07.06 21:02:43 INFO  compiling root (1 scala source)
+2024.07.06 21:02:43 INFO  time: compiled root in 0.38s
+2024.07.06 21:02:44 INFO  compiling root (1 scala source)
+juil. 06, 2024 9:02:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 690
+2024.07.06 21:02:49 INFO  time: compiled root in 5.46s
+2024.07.06 21:02:50 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 21:02:50 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 21:03:55 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 21:04:03 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 21:04:03 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 21:04:03 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 21:04:03 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 21:04:03 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.06 21:04:04 INFO  compiling root (1 scala source)
+2024.07.06 21:04:06 INFO  time: compiled root in 2.45s
+juil. 06, 2024 9:04:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 775
+juil. 06, 2024 9:04:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 777
+2024.07.06 21:04:19 INFO  compiling root (1 scala source)
+2024.07.06 21:04:19 INFO  time: compiled root in 0.41s
+2024.07.06 21:04:21 INFO  compiling root (1 scala source)
+2024.07.06 21:04:21 INFO  time: compiled root in 0.37s
+2024.07.06 21:05:43 INFO  compiling root (1 scala source)
+2024.07.06 21:05:43 INFO  time: compiled root in 0.37s
+juil. 06, 2024 9:06:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 848
+2024.07.06 21:06:21 INFO  compiling root (1 scala source)
+2024.07.06 21:06:21 INFO  time: compiled root in 0.31s
+2024.07.06 21:06:48 INFO  compiling root (1 scala source)
+juil. 06, 2024 9:06:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 901
+2024.07.06 21:06:48 INFO  time: compiled root in 0.32s
+2024.07.06 21:06:53 INFO  compiling root (1 scala source)
+2024.07.06 21:06:53 INFO  time: compiled root in 0.3s
+2024.07.06 21:06:59 INFO  compiling root (1 scala source)
+2024.07.06 21:06:59 INFO  time: compiled root in 0.32s
+2024.07.06 21:07:02 INFO  compiling root (1 scala source)
+2024.07.06 21:07:02 INFO  time: compiled root in 0.27s
+2024.07.06 21:07:03 INFO  compiling root (1 scala source)
+2024.07.06 21:07:03 INFO  time: compiled root in 0.27s
+2024.07.06 21:07:05 INFO  compiling root (1 scala source)
+2024.07.06 21:07:05 INFO  time: compiled root in 0.31s
+juil. 06, 2024 9:07:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1007
+2024.07.06 21:07:12 INFO  compiling root (1 scala source)
+juil. 06, 2024 9:07:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1058
+2024.07.06 21:07:12 INFO  time: compiled root in 0.95s
+2024.07.06 21:07:13 INFO  compiling root (1 scala source)
+2024.07.06 21:07:13 INFO  time: compiled root in 0.87s
+2024.07.06 21:07:19 INFO  compiling root (1 scala source)
+2024.07.06 21:07:19 INFO  time: compiled root in 0.57s
+2024.07.06 21:07:21 INFO  compiling root (1 scala source)
+2024.07.06 21:07:21 INFO  time: compiled root in 0.46s
+2024.07.06 21:07:23 INFO  compiling root (1 scala source)
+2024.07.06 21:07:23 INFO  time: compiled root in 0.96s
+2024.07.06 21:07:25 INFO  compiling root (1 scala source)
+2024.07.06 21:07:25 INFO  time: compiled root in 0.69s
+2024.07.06 21:07:27 INFO  compiling root (1 scala source)
+2024.07.06 21:07:27 INFO  time: compiled root in 0.29s
+2024.07.06 21:07:28 INFO  compiling root (1 scala source)
+2024.07.06 21:07:28 INFO  time: compiled root in 0.45s
+juil. 06, 2024 9:07:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1208
+2024.07.06 21:07:38 INFO  compiling root (1 scala source)
+2024.07.06 21:07:38 INFO  time: compiled root in 0.3s
+2024.07.06 21:07:43 INFO  compiling root (1 scala source)
+2024.07.06 21:07:43 INFO  time: compiled root in 0.31s
+2024.07.06 21:07:50 INFO  compiling root (1 scala source)
+2024.07.06 21:07:53 INFO  time: compiled root in 3.09s
+2024.07.06 23:13:24 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:13:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:13:41 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:16:49 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:40:26 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:40:28 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:40:28 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:40:29 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:40:29 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:40:30 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:40:31 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:40:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.06 23:40:32 INFO  Connected to Build server: Bloop v1.5.18
+2024.07.06 23:40:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.06 23:40:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\project\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.06 23:40:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\project\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.06 23:40:33 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:40:34 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:40:36 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:40:37 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:42:10 INFO  compiling root (1 scala source)
+2024.07.06 23:42:10 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:42:10 INFO  time: compiled root in 0.67s
+2024.07.06 23:42:11 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:42:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:42:17 INFO  compiling root (1 scala source)
+2024.07.06 23:42:17 INFO  time: compiled root in 0.27s
+2024.07.06 23:42:17 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:42:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:42:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:42:19 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:42:19 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:42:20 INFO  compiling root (1 scala source)
+2024.07.06 23:42:23 INFO  time: compiled root in 3.78s
+2024.07.06 23:42:24 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:46:14 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:48:46 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:48:53 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:01 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+juil. 06, 2024 11:49:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1713
+2024.07.06 23:49:01 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:01 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:02 INFO  compiling root (1 scala source)
+2024.07.06 23:49:02 INFO  time: compiled root in 0.27s
+2024.07.06 23:49:03 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:17 INFO  compiling root (1 scala source)
+2024.07.06 23:49:17 INFO  time: compiled root in 0.23s
+2024.07.06 23:49:17 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:21 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:22 INFO  compiling root (1 scala source)
+2024.07.06 23:49:22 INFO  time: compiled root in 0.26s
+2024.07.06 23:49:22 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:29 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:30 INFO  compiling root (1 scala source)
+2024.07.06 23:49:30 INFO  time: compiled root in 0.27s
+2024.07.06 23:49:30 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+juil. 06, 2024 11:49:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1842
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:49:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:01 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+Exception in thread "pool-7-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Using indexes to guess the definition of limite
+2024.07.06 23:50:01 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:01 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:00 WARN  Using indexes to guess the definition of tondeuses
+2024.07.06 23:50:02 INFO  compiling root (1 scala source)
+2024.07.06 23:50:02 INFO  time: compiled root in 0.19s
+2024.07.06 23:50:03 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:17 INFO  compiling root (1 scala source)
+2024.07.06 23:50:17 INFO  time: compiled root in 0.24s
+2024.07.06 23:50:17 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:48 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:50:54 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:01 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:11 INFO  compiling root (1 scala source)
+2024.07.06 23:51:11 INFO  time: compiled root in 0.23s
+2024.07.06 23:51:11 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:13 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:20 INFO  compiling root (1 scala source)
+2024.07.06 23:51:20 INFO  time: compiled root in 0.35s
+2024.07.06 23:51:20 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:26 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:36 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:37 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:46 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:47 INFO  compiling root (1 scala source)
+2024.07.06 23:51:47 INFO  time: compiled root in 0.3s
+2024.07.06 23:51:48 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:49 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:51:49 INFO  compiling root (1 scala source)
+2024.07.06 23:51:55 INFO  time: compiled root in 5.36s
+2024.07.06 23:51:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:30 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:32 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:32 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:32 WARN  Using indexes to guess the definition of tondeuses
+2024.07.06 23:52:32 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:32 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:33 WARN  Using indexes to guess the definition of tondeuses
+2024.07.06 23:52:35 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:36 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:36 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:39 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:39 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:40 INFO  compiling root (1 scala source)
+2024.07.06 23:52:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:42 WARN  Using indexes to guess the definition of orientation
+2024.07.06 23:52:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:44 INFO  time: compiled root in 3.31s
+2024.07.06 23:52:44 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:47 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:47 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:47 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:47 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:49 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:49 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:49 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:49 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:49 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:49 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:49 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:50 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:52:50 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:22 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:22 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:22 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:36 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:37 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:38 INFO  compiling root (1 scala source)
+2024.07.06 23:53:38 INFO  time: compiled root in 0.23s
+2024.07.06 23:53:39 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:39 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:40 INFO  compiling root (1 scala source)
+2024.07.06 23:53:40 INFO  time: compiled root in 0.26s
+2024.07.06 23:53:41 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:47 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:53:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:54:11 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:54:41 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:54:44 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:54:56 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:54:56 INFO  compiling root (1 scala source)
+2024.07.06 23:54:56 INFO  time: compiled root in 0.91s
+2024.07.06 23:54:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:01 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:01 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:02 INFO  compiling root (1 scala source)
+2024.07.06 23:55:02 INFO  time: compiled root in 0.37s
+2024.07.06 23:55:03 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:06 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:07 INFO  compiling root (1 scala source)
+2024.07.06 23:55:15 INFO  time: compiled root in 8.31s
+2024.07.06 23:55:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:22 INFO  compiling root (1 scala source)
+2024.07.06 23:55:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:22 INFO  time: compiled root in 0.51s
+2024.07.06 23:55:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:24 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:24 INFO  compiling root (1 scala source)
+2024.07.06 23:55:29 INFO  time: compiled root in 4.29s
+2024.07.06 23:55:29 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+juil. 06, 2024 11:55:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2355
+2024.07.06 23:55:36 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:39 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:40 INFO  compiling root (1 scala source)
+2024.07.06 23:55:44 INFO  time: compiled root in 4.36s
+2024.07.06 23:55:45 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:50 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:51 INFO  compiling root (1 scala source)
+2024.07.06 23:55:51 INFO  time: compiled root in 0.21s
+2024.07.06 23:55:51 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:55:59 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:56:00 INFO  compiling root (1 scala source)
+2024.07.06 23:56:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:56:00 INFO  time: compiled root in 0.26s
+2024.07.06 23:56:01 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:56:00 INFO  compiling root (1 scala source)
+2024.07.06 23:56:01 INFO  time: compiled root in 0.2s
+2024.07.06 23:56:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:56:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:56:03 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:56:03 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:56:04 INFO  compiling root (1 scala source)
+2024.07.06 23:56:07 INFO  time: compiled root in 2.74s
+2024.07.06 23:56:07 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:56:20 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:26 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:27 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:27 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:27 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:27 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:27 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:27 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:27 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:28 INFO  compiling root (1 scala source)
+2024.07.06 23:57:33 INFO  time: compiled root in 4.87s
+2024.07.06 23:57:33 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:36 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:45 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:57:50 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:58:20 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.06 23:58:53 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 00:00:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 00:00:59 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 00:18:45 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 00:41:25 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:25:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:25:36 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:25:40 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:25:40 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:26:11 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:26:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:26:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:26:21 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:26:35 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:26:50 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:09 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:13 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:13 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:14 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:15 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:403: error: unclosed comment
+/*def writeYamlToFile(content: String, path: String): Unit = {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:61)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:77)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:300)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.07 10:28:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.07 10:28:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.07 10:28:16 INFO  Connected to Build server: Bloop v1.5.18
+2024.07.07 10:28:16 INFO  Connected to Build server: Bloop v1.5.18
+2024.07.07 10:28:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\project\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.07 10:28:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.07 10:28:16 INFO  compiling root (1 scala source)
+2024.07.07 10:28:16 INFO  time: compiled root in 0.66s
+2024.07.07 10:28:17 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:403: error: unclosed comment
+/*def writeYamlToFile(content: String, path: String): Unit = {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:61)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:77)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:300)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.07 10:28:17 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:18 INFO  compiling root (1 scala source)
+2024.07.07 10:28:18 INFO  time: compiled root in 0.32s
+2024.07.07 10:28:17 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:403: error: unclosed comment
+/*def writeYamlToFile(content: String, path: String): Unit = {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:61)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:77)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:300)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.07 10:28:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:19 INFO  compiling root (1 scala source)
+2024.07.07 10:28:19 INFO  time: compiled root in 0.29s
+2024.07.07 10:28:20 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:21 INFO  compiling root (1 scala source)
+2024.07.07 10:28:27 INFO  time: compiled root in 5.96s
+2024.07.07 10:28:27 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:40 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:47 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:48 INFO  compiling root (1 scala source)
+2024.07.07 10:28:53 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:28:54 INFO  time: compiled root in 5.7s
+2024.07.07 10:28:54 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 10:29:41 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 16:12:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 16:12:28 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 16:12:53 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 16:59:40 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:09 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.07 17:01:19 INFO  Connected to Build server: Bloop v1.5.18
+2024.07.07 17:01:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\project\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.07 17:01:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.07 17:01:22 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:23 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:409: error: unclosed comment
+/*def writeYamlToFile(content: String, path: String): Unit = {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:61)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:77)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:300)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.07 17:01:27 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:27 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:409: error: unclosed comment
+/*def writeYamlToFile(content: String, path: String): Unit = {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:61)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:77)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:300)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.07 17:01:27 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:27 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:409: error: unclosed comment
+/*def writeYamlToFile(content: String, path: String): Unit = {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:61)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:77)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:300)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.07 17:01:27 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:31 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:409: error: unclosed comment
+/*def writeYamlToFile(content: String, path: String): Unit = {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:61)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:77)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:300)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.07 17:01:31 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:34 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:37 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:37 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:37 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:37 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:41 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:42 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:43 WARN  Using indexes to guess the definition of wore
+2024.07.07 17:01:46 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:47 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:47 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:47 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:01:47 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:09 INFO  compiling root (1 scala source)
+2024.07.07 17:02:11 INFO  time: compiled root in 1.85s
+2024.07.07 17:02:12 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:13 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:15 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+juil. 07, 2024 5:02:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2883
+2024.07.07 17:02:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:17 WARN  Using indexes to guess the definition of Wore
+2024.07.07 17:02:21 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:23 INFO  compiling root (1 scala source)
+2024.07.07 17:02:24 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:26 INFO  time: compiled root in 2.29s
+2024.07.07 17:02:26 INFO  compiling root (1 scala source)
+2024.07.07 17:02:26 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:29 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:31 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:31 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:377: error: unclosed comment
+/*def convertToYaml(contentFile: ContentFile): String = {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:61)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:77)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:300)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.07 17:02:34 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:34 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:377: error: unclosed comment
+/*def convertToYaml(contentFile: ContentFile): String = {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:61)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:77)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:300)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.07 17:02:34 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:38 INFO  time: compiled root in 12s
+2024.07.07 17:02:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:44 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:377: error: unclosed comment
+/*def convertToYaml(contentFile: ContentFile): String = {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:61)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:77)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:300)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.07 17:02:44 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:45 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:45 ERROR Failed to tokenize input for semantic tokens for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:377: error: unclosed comment
+/*def convertToYaml(contentFile: ContentFile): String = {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:28)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:61)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:77)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:300)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.07 17:02:46 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:47 INFO  compiling root (1 scala source)
+2024.07.07 17:02:47 INFO  time: compiled root in 0.27s
+2024.07.07 17:02:47 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:51 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:53 INFO  compiling root (1 scala source)
+2024.07.07 17:02:57 INFO  time: compiled root in 3.76s
+2024.07.07 17:02:57 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:02:59 INFO  compiling root (1 scala source)
+2024.07.07 17:03:01 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:03:04 INFO  time: compiled root in 4.43s
+2024.07.07 17:03:04 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:03:04 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:03:49 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:07:20 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:07:22 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:07:27 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:07:28 INFO  compiling root (1 scala source)
+2024.07.07 17:07:28 INFO  time: compiled root in 0.53s
+2024.07.07 17:07:29 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:07:29 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:07:30 INFO  compiling root (1 scala source)
+2024.07.07 17:07:30 INFO  time: compiled root in 0.69s
+2024.07.07 17:07:31 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:07:32 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:07:33 INFO  compiling root (1 scala source)
+2024.07.07 17:07:33 INFO  time: compiled root in 0.25s
+2024.07.07 17:07:34 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:07:34 INFO  compiling root (1 scala source)
+2024.07.07 17:07:38 INFO  time: compiled root in 3.68s
+2024.07.07 17:07:38 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:07:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:08:21 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:08:30 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:09:21 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:10:13 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:49 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:56 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:56 WARN  Using indexes to guess the definition of wore
+2024.07.07 17:15:56 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:56 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:56 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:56 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:56 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:56 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:56 WARN  Using indexes to guess the definition of instruction
+2024.07.07 17:15:56 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:56 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:57 INFO  compiling root (1 scala source)
+2024.07.07 17:15:57 WARN  Using indexes to guess the definition of wore
+2024.07.07 17:15:57 INFO  time: compiled root in 0.48s
+2024.07.07 17:15:57 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:15:59 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:16:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:16:03 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:16:04 INFO  compiling root (1 scala source)
+2024.07.07 17:16:04 INFO  time: compiled root in 0.45s
+2024.07.07 17:16:05 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:16:16 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:16:17 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:16:19 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:16:20 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:16:21 INFO  compiling root (1 scala source)
+2024.07.07 17:16:21 INFO  time: compiled root in 0.28s
+2024.07.07 17:16:22 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:16:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:16:53 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:16:54 INFO  compiling root (1 scala source)
+2024.07.07 17:16:54 INFO  time: compiled root in 0.27s
+2024.07.07 17:16:55 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:16:56 INFO  compiling root (1 scala source)
+2024.07.07 17:16:56 INFO  time: compiled root in 0.87s
+2024.07.07 17:16:57 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:17:08 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:17:10 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:17:12 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:17:13 INFO  compiling root (1 scala source)
+2024.07.07 17:17:13 INFO  time: compiled root in 0.8s
+2024.07.07 17:17:14 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:18:44 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:18:45 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:18:45 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:18:45 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:18:45 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:18:45 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:18:46 INFO  compiling root (1 scala source)
+2024.07.07 17:18:46 INFO  time: compiled root in 0.45s
+2024.07.07 17:18:46 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:31 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:32 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:33 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+juil. 07, 2024 5:20:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3481
+2024.07.07 17:20:33 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:33 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:34 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:34 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:35 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:35 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:36 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:36 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:36 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:36 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:50 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:51 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:51 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:20:51 WARN  Using indexes to guess the definition of debut
+2024.07.07 17:20:59 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:13 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:19 INFO  compiling root (1 scala source)
+2024.07.07 17:23:19 INFO  time: compiled root in 0.28s
+2024.07.07 17:23:20 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:20 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:20 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:20 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:20 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:21 INFO  compiling root (1 scala source)
+2024.07.07 17:23:21 INFO  time: compiled root in 0.98s
+2024.07.07 17:23:22 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:23 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:24 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:25 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:30 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:23:30 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:25:49 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:25:50 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:25:50 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:25:56 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:27:31 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:27:39 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:27:40 INFO  compiling root (1 scala source)
+2024.07.07 17:27:43 INFO  time: compiled root in 3.68s
+2024.07.07 17:27:44 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:28:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:33:50 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:33:50 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:33:51 INFO  compiling root (1 scala source)
+2024.07.07 17:33:57 INFO  time: compiled root in 6.03s
+2024.07.07 17:33:58 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:34:34 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:34:39 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:34:44 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:34:52 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:34:56 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:34:57 INFO  compiling root (1 scala source)
+2024.07.07 17:35:01 INFO  time: compiled root in 3.91s
+2024.07.07 17:35:01 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:32 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:37 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:39 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:40 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:40 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:40 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:40 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:40 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:35:44 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:36:00 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:36:02 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:36:26 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:36:28 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:36:32 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:36:41 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+juil. 07, 2024 5:39:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3980
+2024.07.07 17:39:11 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:39:18 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:39:19 INFO  compiling root (1 scala source)
+2024.07.07 17:39:20 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:39:21 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:39:24 INFO  time: compiled root in 4.68s
+2024.07.07 17:39:24 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.07 17:39:25 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist

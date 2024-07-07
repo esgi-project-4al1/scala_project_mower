@@ -1,7 +1,16 @@
 package funprog
 
 import better.files.File
-import progfun.{Cardinal, ContentFile, Mower, Point, Wore, WoreFinish, WoreOrientation, WoreWithContent}
+import progfun.{
+  Cardinal,
+  ContentFile,
+  Mower,
+  Point,
+  Wore,
+  WoreFinish,
+  WoreOrientation,
+  WoreWithContent
+}
 import upickle.legacy.write
 
 import scala.::
@@ -29,8 +38,7 @@ def startModeFull(): Unit = {
   start(f.lines.toList)
 }
 
-
-def createFileJson(contentFile: ContentFile, path: String ): Unit = {
+def createFileJson(contentFile: ContentFile, path: String): Unit = {
   val file = File(path).createIfNotExists()
   val jsonString = write[ContentFile](contentFile)
   // To overwrite the file with new content
@@ -40,6 +48,10 @@ def createFileJson(contentFile: ContentFile, path: String ): Unit = {
 def start(line: List[String]): Unit = {
   val result = startWore(line)
   display(result)
+  val resultYAML = convertToYaml(result)
+  writeToYAMLFile(resultYAML, "test.yaml")
+  val resultCSV = convertToCsv(result)
+  writeToYAMLFile(resultCSV, "test.csv")
   createFileJson(result, "test.json")
 }
 
@@ -57,7 +69,6 @@ def startWore(line: List[String]): ContentFile = {
     recursive(listWoreWithContent, map, List.empty[WoreFinish]).reverse
   ContentFile(limite = point, tondeuses = listWoreWithContentReverse)
 }
-
 
 def display(contentFile: ContentFile): Unit = {
   for (wore <- contentFile.tondeuses) {
@@ -93,9 +104,15 @@ def createWoreFinish(
     instructionString: String): WoreFinish = {
   val instruction = createListCharWithString(instructionString)
   val debut =
-    WoreOrientation(Point(woreStart.x, woreStart.y), woreStart.orientation.toString)
+    WoreOrientation(
+      Point(woreStart.x, woreStart.y),
+      woreStart.orientation.toString
+    )
   val finish =
-    WoreOrientation(Point(woreFinish.x, woreFinish.y), woreFinish.orientation.toString)
+    WoreOrientation(
+      Point(woreFinish.x, woreFinish.y),
+      woreFinish.orientation.toString
+    )
   WoreFinish(debut, instruction, finish)
 }
 
@@ -386,7 +403,7 @@ def createCardinal(orientation: Char): Cardinal = {
   }
 }
 
-/*def convertToYaml(contentFile: ContentFile): String = {
+def convertToYaml(contentFile: ContentFile): String = {
   val limiteYaml =
     s"""limite:
        |  x: ${contentFile.limite.x}
@@ -410,27 +427,25 @@ def createCardinal(orientation: Char): Cardinal = {
 
   s"$limiteYaml\n$tondeusesYaml"
 }
- */
+ 
 def convertToCsv(contentFile: ContentFile): String = {
   val header =
     "debut_x,debut_y,debut_orientation,instruction,finish_x,finish_y,finish_orientation"
   val rows = contentFile.tondeuses.map { wore =>
     val instructions =
-      wore.instruction.mkString(",") 
-    s"${wore.debut.point.x},${wore.debut.point.y},${wore.debut.orientation}," + 
+      wore.instruction.mkString(",")
+    s"${wore.debut.point.x},${wore.debut.point.y},${wore.debut.orientation}," +
       s"${instructions},${wore.finish.point.x},${wore.finish.point.y},${wore.finish.orientation}"
   }
-  (header :: rows).mkString("\n") 
+  (header :: rows).mkString("\n")
 }
 
-def writeYamlToFile(content: String, path: String): Unit = {
+def writeToYAMLFile(content: String, path: String): Unit = {
   try {
     val file = File(path)
     file.write(content)
-    println(s"Fichier YAML créé avec succès à : $path")
   } catch {
     case e: Exception =>
-      println(s"Erreur lors de la création du fichier YAML à : $path")
       e.printStackTrace()
   }
 

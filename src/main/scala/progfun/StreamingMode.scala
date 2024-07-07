@@ -1,10 +1,9 @@
 package funprog
 
-import progfun.{ Point, Wore, WoreFinish,  WoreWithContent}
+import progfun.{Point, Wore, WoreFinish, WoreWithContent}
 
 import scala.annotation.tailrec
 import scala.io.StdIn.readLine
-
 
 def runModeStreaming(): Unit = {
   println("Enter command (press 'enter' to quit): ")
@@ -35,13 +34,12 @@ def createGarden(point: Point): List[List[Boolean]] = {
   List.fill(point.x + 1)(List.fill(point.y + 1)(false))
 }
 
-def runWore(wore: Wore, instruction: String, garden: List[List[Boolean]]): WoreFinish = {
+def runWore(
+    wore: Wore,
+    instruction: String,
+    garden: List[List[Boolean]]): WoreFinish = {
   val woreWithContent = WoreWithContent(wore, instruction)
   val gardenState = GardenState(garden, woreWithContent.wore)
   val result = recursivite(woreWithContent.content, gardenState)
   createWoreFinish(wore, result.wore, instruction)
 }
-
-
-
-

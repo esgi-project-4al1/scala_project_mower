@@ -1,13 +1,13 @@
 package progfun
 
-import upickle.legacy.{ReadWriter, Writer, macroW}
+import upickle.legacy.{macroW, ReadWriter, Writer}
 
-final case class WoreOrientation (
-  point: Point,
-  orientation: String,
-)
-  derives ReadWriter
+final case class WoreOrientation(
+    point: Point,
+    orientation: String
+) derives ReadWriter
 
 object WoreOrientation {
-  implicit val woreOrientationWriter: Writer[WoreOrientation] = macroW[WoreOrientation]
+  implicit val woreOrientationWriter: Writer[WoreOrientation] =
+    macroW[WoreOrientation]
 }

@@ -1,6 +1,6 @@
 package progfun
 
-final class Point (
-  val x: Int,
-  val y: Int
+final class Point(
+    val x: Int,
+    val y: Int
 )

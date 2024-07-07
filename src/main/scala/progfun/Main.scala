@@ -13,13 +13,23 @@ final case class GardenState(map: List[List[Boolean]], wore: Wore)
 def Main(): Unit = {
   println(":> Enter your file txt: ")
   val file = StdIn.readLine()
-  val f = File( file)
-  start(f.lines.toList)
+  val f = File(file)
+  val contentFile = start1(f.lines.toList)
+
+  val yamlString = convertToCsv(contentFile)
+  writeYamlToFile(yamlString, "output.csv")
+  println(yamlString)
+
 }
 
 def start(line: List[String]): Unit = {
   val result = startWore(line)
   display(result)
+}
+
+def start1(line: List[String]): ContentFile = {
+  val result1 = startWore(line)
+  result1
 }
 
 def startWore(line: List[String]): ContentFile = {
@@ -362,4 +372,54 @@ def createCardinal(orientation: Char): Cardinal = {
     case 'S' => Cardinal.S
     case _   => exit(100)
   }
+}
+
+/*def convertToYaml(contentFile: ContentFile): String = {
+  val limiteYaml =
+    s"""limite:
+       |  x: ${contentFile.limite.x}
+       |  y: ${contentFile.limite.y}""".stripMargin
+
+  val tondeusesYaml = contentFile.tondeuses
+    .map { wore =>
+      s"""  - debut:
+       |      point:
+       |        x: ${wore.debut.point.x}
+       |        y: ${wore.debut.point.y}
+       |      orientation: ${wore.debut.orientation}
+       |    instruction: ${wore.instruction}
+       |    finish:
+       |      point:
+       |        x: ${wore.finish.point.x}
+       |        y: ${wore.finish.point.y}
+       |      orientation: ${wore.finish.orientation}""".stripMargin
+    }
+    .mkString("\n")
+
+  s"$limiteYaml\n$tondeusesYaml"
+}
+ */
+def convertToCsv(contentFile: ContentFile): String = {
+  val header =
+    "debut_x,debut_y,debut_orientation,instruction,finish_x,finish_y,finish_orientation"
+  val rows = contentFile.tondeuses.map { wore =>
+    val instructions =
+      wore.instruction.mkString(",") 
+    s"${wore.debut.point.x},${wore.debut.point.y},${wore.debut.orientation}," + 
+      s"${instructions},${wore.finish.point.x},${wore.finish.point.y},${wore.finish.orientation}"
+  }
+  (header :: rows).mkString("\n") 
+}
+
+def writeYamlToFile(content: String, path: String): Unit = {
+  try {
+    val file = File(path)
+    file.write(content)
+    println(s"Fichier YAML créé avec succès à : $path")
+  } catch {
+    case e: Exception =>
+      println(s"Erreur lors de la création du fichier YAML à : $path")
+      e.printStackTrace()
+  }
+
 }

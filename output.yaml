@@ -1,0 +1,25 @@
+limite:
+  x: 5
+  y: 5
+  - debut:
+      point:
+        x: 1
+        y: 2
+      orientation: N
+    instruction: List(G, A, G, A, G, A, G, A, A)
+    finish:
+      point:
+        x: 1
+        y: 3
+      orientation: N
+  - debut:
+      point:
+        x: 3
+        y: 3
+      orientation: E
+    instruction: List(A, A, D, A, A, D, A, D, D, A)
+    finish:
+      point:
+        x: 5
+        y: 1
+      orientation: E

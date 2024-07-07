@@ -1,0 +1,3 @@
+debut_x,debut_y,debut_orientation,instruction,finish_x,finish_y,finish_orientation
+1,2,N,G,A,G,A,G,A,G,A,A,1,3,N
+3,3,E,A,A,D,A,A,D,A,D,D,A,5,1,E

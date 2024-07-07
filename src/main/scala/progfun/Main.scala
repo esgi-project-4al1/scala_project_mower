@@ -406,13 +406,13 @@ def convertToYaml(contentFile: ContentFile): String = {
        |      point:
        |        x: ${wore.debut.point.x}
        |        y: ${wore.debut.point.y}
-       |      orientation: ${wore.debut.orientation}
-       |    instruction: \n${transformListToStringForYaml(wore.instruction)}
-       |    finish:
+       |      direction: ${wore.debut.orientation}
+       |    instructions: \n${transformListToStringForYaml(wore.instruction)}
+       |    fin:
        |      point:
        |        x: ${wore.finish.point.x}
        |        y: ${wore.finish.point.y}
-       |      orientation: ${wore.finish.orientation}""".stripMargin
+       |      direction: ${wore.finish.orientation}""".stripMargin
     }
     .mkString("\n")
 

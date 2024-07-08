@@ -1,0 +1,8 @@
+{
+    "name": "funprog",
+    "inputPath": "src/main/resources/test.txt",
+    "jsonPath": "output.json",
+    "csvPath": "output.csv",
+    "yamlPath": "output.yaml"
+    }
+    

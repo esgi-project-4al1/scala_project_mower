@@ -3,10 +3,10 @@ package progfun
 import scala.annotation.tailrec
 import scala.io.StdIn.readLine
 
-def runModeStreaming(): Unit = {
+def runModeStreaming(config: Config): Unit = {
   println("Enter command (press 'enter' to quit): ")
   val result = loop(true, 0, List.empty[String])
-  start(result)
+  start(result, config)
 }
 
 @tailrec

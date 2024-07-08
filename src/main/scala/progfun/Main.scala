@@ -1,32 +1,46 @@
 package progfun
 
+import ConfigReader._
 import better.files.File
 
 import upickle.legacy.write
 
-import scala.::
 import scala.annotation.tailrec
 import scala.io.StdIn
 import scala.sys.exit
 
 final case class GardenState(map: List[List[Boolean]], wore: Wore)
+
 @main
 def Main(): Unit = {
+  println(
+    ":> Enter the path to the config JSON file (or press Enter to use default config.json): "
+  )
+  val configFilePath = StdIn.readLine()
+  val defaultConfigPath = "config.json"
+  val configPath =
+    if (configFilePath.isEmpty) defaultConfigPath else configFilePath
+
+  val config = ConfigReader.readConfig(configPath)
+  runWithConfig(config)
+}
+
+def runWithConfig(config: Config): Unit = {
   println(":> Enter streaming for streaming mode: ")
   val args = StdIn.readLine()
   args match {
     case "streaming" => {
-      runModeStreaming()
+      runModeStreaming(config)
     }
-    case _ => startModeFull()
+    case _ => {
+      startModeFull(config)
+    }
   }
 }
 
-def startModeFull(): Unit = {
-  println(":> Enter your file txt: ")
-  val file = StdIn.readLine()
-  val f = File(file)
-  start(f.lines.toList)
+def startModeFull(config: Config): Unit = {
+  val f = File(config.inputPath)
+  start(f.lines.toList, config)
 }
 
 def createFileJson(contentFile: ContentFile, path: String): Unit = {
@@ -35,14 +49,14 @@ def createFileJson(contentFile: ContentFile, path: String): Unit = {
   file.overwrite(jsonString)
 }
 
-def start(line: List[String]): Unit = {
+def start(line: List[String], config: Config): Unit = {
   val result = startWore(line)
   display(result)
   val resultYAML = convertToYaml(result)
-  writeToYAMLFile(resultYAML, "test.yaml")
+  writeToYAMLFile(resultYAML, config.yamlPath)
   val resultCSV = convertToCsv(result)
-  writeToYAMLFile(resultCSV, "test.csv")
-  createFileJson(result, "test.json")
+  writeToYAMLFile(resultCSV, config.csvPath)
+  createFileJson(result, config.jsonPath)
 }
 
 def startWore(line: List[String]): ContentFile = {
@@ -420,17 +434,19 @@ def convertToYaml(contentFile: ContentFile): String = {
 }
 
 def transformListToStringForYaml(instructions: List[Char]): String = {
-  instructions.map{ instruction =>
-    s"       - ${instruction}"
-  }.mkString("\n")
+  instructions
+    .map { instruction =>
+      s"       - ${instruction}"
+    }
+    .mkString("\n")
 }
 
-
 def convertToCsv(contentFile: ContentFile): String = {
-  val header = "numéro;début_x;début_y;début_direction;fin_x;fin_y;fin_direction;fin"
+  val header =
+    "numéro;début_x;début_y;début_direction;fin_x;fin_y;fin_direction;fin"
   val rows = contentFile.tondeuses.zipWithIndex.map { case (wore, number) =>
     val instructions = wore.instructions.mkString("")
-    s"${number+1};${wore.debut.point.x};${wore.debut.point.y};${wore.debut.direction};" +
+    s"${number + 1};${wore.debut.point.x};${wore.debut.point.y};${wore.debut.direction};" +
       s"${wore.fin.point.x};${wore.fin.point.y};${wore.fin.direction};$instructions"
   }
   (header :: rows).mkString("\n")

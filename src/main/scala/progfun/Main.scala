@@ -1,15 +1,12 @@
 package progfun
 
-import ConfigReader._
 import better.files.File
-
 import upickle.legacy.write
 
+import scala.::
 import scala.annotation.tailrec
 import scala.io.StdIn
 import scala.sys.exit
-
-final case class GardenState(map: List[List[Boolean]], wore: Wore)
 
 @main
 def Main(): Unit = {
@@ -39,24 +36,24 @@ def runWithConfig(config: Config): Unit = {
 }
 
 def startModeFull(config: Config): Unit = {
-  val f = File(config.inputPath)
+  val file = config.inputPath
+  val f = File(file)
   start(f.lines.toList, config)
 }
 
-def createFileJson(contentFile: ContentFile, path: String): Unit = {
-  val file = File(path).createIfNotExists()
-  val jsonString = write[ContentFile](contentFile)
-  file.overwrite(jsonString)
+def writeToJsonFile(contentFile: ContentFile, path: String): String = {
+  write[ContentFile](contentFile)
 }
 
 def start(line: List[String], config: Config): Unit = {
   val result = startWore(line)
   display(result)
-  val resultYAML = convertToYaml(result)
-  writeToYAMLFile(resultYAML, config.yamlPath)
-  val resultCSV = convertToCsv(result)
-  writeToYAMLFile(resultCSV, config.csvPath)
-  createFileJson(result, config.jsonPath)
+  val contentYAML = convertToYaml(result)
+  writeFile(contentYAML, config.yamlPath)
+  val contentCSV = convertToCsv(result)
+  writeFile(contentCSV, config.csvPath)
+  val contentJson = writeToJsonFile(result, config.jsonPath)
+  writeFile(contentJson, config.jsonPath)
 }
 
 def startWore(line: List[String]): ContentFile = {
@@ -421,8 +418,8 @@ def convertToYaml(contentFile: ContentFile): String = {
        |        x: ${wore.debut.point.x}
        |        y: ${wore.debut.point.y}
        |      direction: ${wore.debut.direction}
-       |    fin: \n${transformListToStringForYaml(wore.instructions)}
-       |    fin:
+       |    instructions: \n${transformListToStringForYaml(wore.instructions)}
+       |  - fin:
        |      point:
        |        x: ${wore.fin.point.x}
        |        y: ${wore.fin.point.y}
@@ -436,7 +433,7 @@ def convertToYaml(contentFile: ContentFile): String = {
 def transformListToStringForYaml(instructions: List[Char]): String = {
   instructions
     .map { instruction =>
-      s"       - ${instruction}"
+      s"       - $instruction"
     }
     .mkString("\n")
 }
@@ -452,10 +449,10 @@ def convertToCsv(contentFile: ContentFile): String = {
   (header :: rows).mkString("\n")
 }
 
-def writeToYAMLFile(content: String, path: String): Unit = {
+def writeFile(content: String, path: String): Unit = {
   try {
     val file = File(path)
-    file.write(content)
+    file.overwrite(content)
   } catch {
     case e: Exception =>
       e.printStackTrace()

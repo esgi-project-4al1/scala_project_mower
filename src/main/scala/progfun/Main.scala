@@ -3,6 +3,9 @@ package progfun
 import better.files.File
 import upickle.legacy.write
 
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+
 import scala.::
 import scala.annotation.tailrec
 import scala.io.StdIn
@@ -45,6 +48,17 @@ def writeToJsonFile(contentFile: ContentFile, path: String): String = {
   write[ContentFile](contentFile)
 }
 
+def writeToLog(contentFile: ContentFile): Unit = {
+  val file = File("logs.log")
+  val logs = write(contentFile)
+  val currentTime = LocalDateTime
+    .now()
+    .nn
+    .format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
+  val logEntry = s"[$currentTime] $logs"
+  file.appendLine(logEntry)
+}
+
 def start(line: List[String], config: Config): Unit = {
   val result = startWore(line)
   display(result)
@@ -54,6 +68,8 @@ def start(line: List[String], config: Config): Unit = {
   writeFile(contentCSV, config.csvPath)
   val contentJson = writeToJsonFile(result, config.jsonPath)
   writeFile(contentJson, config.jsonPath)
+  writeToLog(result)
+
 }
 
 def startWore(line: List[String]): ContentFile = {

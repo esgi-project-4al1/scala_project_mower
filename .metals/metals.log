@@ -1509,3 +1509,73 @@ AVERTISSEMENT: Unmatched cancel notification for request id 3980
 2024.07.07 17:39:24 INFO  time: compiled root in 4.68s
 2024.07.07 17:39:24 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
 2024.07.07 17:39:25 WARN  Target root C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.bloop\root\bloop-bsp-clients-classes\classes-Metals-3In5BHxjQ52g5sEQ-RUM3Q== does not exist
+2024.07.23 17:30:17 INFO  Started: Metals version 1.3.3 in folders 'C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@2508a490]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@df8363]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2508a490]
+2024.07.23 17:30:25 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.23 17:30:25 INFO  no build target found for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 17:30:25 INFO  Attempting to connect to the build server...
+2024.07.23 17:30:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.23 17:30:26 INFO  Attempting to connect to the build server...
+2024.07.23 17:30:26 INFO  Attempting to connect to the build server...
+2024.07.23 17:30:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.23 17:30:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\project\.metals\bsp.trace.json or C:\Users\yassi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.23 17:30:26 INFO  time: Connected to build server in 1.74s
+2024.07.23 17:30:26 INFO  Connected to Build server: Bloop v1.6.0
+2024.07.23 17:30:27 INFO  time: Imported build in 0.24s
+2024.07.23 17:30:27 INFO  running doctor check
+2024.07.23 17:30:27 INFO  java targets: scala_project_mower-build-build, root, root-test, scala_project_mower-build
+juil. 23, 2024 5:30:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1
+juil. 23, 2024 5:30:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3
+juil. 23, 2024 5:30:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 14
+juil. 23, 2024 5:30:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 15
+juil. 23, 2024 5:30:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4
+juil. 23, 2024 5:30:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 10
+2024.07.23 17:30:30 INFO  compiling root (15 scala sources)
+juil. 23, 2024 5:30:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 9
+juil. 23, 2024 5:30:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 21
+juil. 23, 2024 5:30:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 24
+2024.07.23 17:30:39 INFO  compiling root (15 scala sources)
+2024.07.23 17:30:40 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.23 17:30:44 INFO  time: indexed workspace in 16s
+2024.07.23 17:30:57 INFO  time: compiled root in 17s
+2024.07.23 17:30:57 INFO  compiling root-test (2 scala sources)
+2024.07.23 17:31:01 INFO  time: compiled root-test in 3.53s
+2024.07.23 17:31:01 INFO  compiling root (2 scala sources)
+2024.07.23 17:31:07 INFO  time: compiled root in 5.94s
+2024.07.23 17:31:07 INFO  compiling root (2 scala sources)
+2024.07.23 17:31:15 INFO  time: compiled root in 6.67s
+2024.07.23 17:31:15 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.23 17:31:15 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.23 17:31:42 INFO  running 'C:\Users\yassi\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17%252B35\OpenJDK17-jdk_x64_windows_hotspot_17_35.zip\jdk-17+35\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\yassi\AppData\Local\Temp\metals10013585174127093493\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.07.23 17:31:44 INFO  [info] welcome to sbt 1.9.9 (Eclipse Adoptium Java 17)
+2024.07.23 17:31:44 INFO  [info] loading settings for project scala_project_mower-build-build-build from metals.sbt ...
+2024.07.23 17:31:45 INFO  [info] loading project definition from C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\project\project
+2024.07.23 17:31:45 INFO  [info] loading settings for project scala_project_mower-build-build from metals.sbt ...
+2024.07.23 17:31:45 INFO  [info] loading project definition from C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project\project
+2024.07.23 17:31:49 INFO  [success] Generated .bloop\scala_project_mower-build-build.json
+2024.07.23 17:31:49 INFO  [success] Total time: 3 s, completed 23 juil. 2024, 17:31:49
+2024.07.23 17:31:49 INFO  [info] loading settings for project scala_project_mower-build from metals.sbt,plugins.sbt ...
+2024.07.23 17:31:49 INFO  [info] loading project definition from C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\project
+2024.07.23 17:31:50 INFO  [success] Generated .bloop\scala_project_mower-build.json
+2024.07.23 17:31:50 INFO  [success] Total time: 1 s, completed 23 juil. 2024, 17:31:51
+2024.07.23 17:31:50 INFO  [info] loading settings for project root from build.sbt ...
+2024.07.23 17:31:51 INFO  [info] set current project to funprog-AL (in build file:/C:/Users/yassi/OneDrive/Bureau/4al_Sem2/SCALA/scalaPROJET/scala_project_mower/)
+2024.07.23 17:31:52 INFO  user cancelled sbt bloopInstall
+2024.07.23 17:31:52 INFO  time: ran 'sbt bloopInstall' in 10s
+2024.07.23 17:31:52 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+juil. 23, 2024 5:32:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 158
+2024.07.23 17:32:06 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala

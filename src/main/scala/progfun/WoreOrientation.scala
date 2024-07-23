@@ -3,8 +3,8 @@ package progfun
 import upickle.legacy.{macroW, ReadWriter, Writer}
 
 final case class WoreOrientation(
-                                  point: Point,
-                                  direction: String
+    point: Point,
+    direction: String
 ) derives ReadWriter
 
 object WoreOrientation {

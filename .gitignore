@@ -2,3 +2,7 @@ target/
 project/target
 project/project/target
 .bsp
+.idea
+.metals
+.vscode
+.bloop

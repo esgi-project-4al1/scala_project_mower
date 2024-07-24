@@ -1,6 +1,6 @@
 {
     "name": "funprog",
-    "inputPath": "src/main/resources/test2.txt",
+    "inputPath": "src/main/resources/fakeGarden.txt",
     "jsonPath": "output.json",
     "csvPath": "output.csv",
     "yamlPath": "output.yaml"

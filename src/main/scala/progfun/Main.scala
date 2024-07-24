@@ -59,6 +59,17 @@ def writeToLog(contentFile: ContentFile): Unit = {
   file.appendLine(logEntry)
 }
 
+def writeToLogMessage(message: String): Unit = {
+  val file = File("logs.log")
+  val logs = write(message)
+  val currentTime = LocalDateTime
+    .now()
+    .nn
+    .format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
+  val logEntry = s"[$currentTime] $logs"
+  file.appendLine(logEntry)
+}
+
 def start(line: List[String], config: Config): Unit = {
   val result = startWore(line)
   display(result)
@@ -80,6 +91,7 @@ def startWore(line: List[String]): ContentFile = {
   // Vérification des limites ici
   if (point.x < 0 || point.y < 0) {
     println(s"Limites du jardin invalides : (${point.x}, ${point.y})")
+    writeToLogMessage(s"Limites du jardin invalides : (${point.x}, ${point.y})")
     exit(200)
   } else {
     val map = List.fill(point.x + 1)(List.fill(point.y + 1)(false))
@@ -177,6 +189,9 @@ def createWore(input: String, gardenLimits: Point): Wore = {
     wore.x < 0 || wore.y < 0 || wore.x > gardenLimits.x || wore.y > gardenLimits.y
   ) {
     println(
+      s"Tondeuse en dehors des limites du jardin : (${wore.x}, ${wore.y})"
+    )
+    writeToLogMessage(
       s"Tondeuse en dehors des limites du jardin : (${wore.x}, ${wore.y})"
     )
     exit(200)

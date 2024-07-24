@@ -77,14 +77,20 @@ def startWore(line: List[String]): ContentFile = {
     case head :: tail => parseGarden(head)
     case Nil          => exit(200)
   }
-  val map = List.fill(point.x + 1)(List.fill(point.y + 1)(false))
-  val restWithNoGarden = CreateListWithNoGarden(line)
-  val sousListes = restWithNoGarden.grouped(2).toList
-  val listWoreWithContent =
-    sousListes.map(content => createWoreWithContent(content))
-  val listWoreWithContentReverse =
-    recursive(listWoreWithContent, map, List.empty[WoreFinish]).reverse
-  ContentFile(limite = point, tondeuses = listWoreWithContentReverse)
+  // Vérification des limites ici
+  if (point.x < 0 || point.y < 0) {
+    println(s"Limites du jardin invalides : (${point.x}, ${point.y})")
+    exit(200)
+  } else {
+    val map = List.fill(point.x + 1)(List.fill(point.y + 1)(false))
+    val restWithNoGarden = CreateListWithNoGarden(line)
+    val sousListes = restWithNoGarden.grouped(2).toList
+    val listWoreWithContent =
+      sousListes.map(content => createWoreWithContent(content, point))
+    val listWoreWithContentReverse =
+      recursive(listWoreWithContent, map, List.empty[WoreFinish]).reverse
+    ContentFile(limite = point, tondeuses = listWoreWithContentReverse)
+  }
 }
 
 def display(contentFile: ContentFile): Unit = {
@@ -140,10 +146,12 @@ def run(
   recursivite(woreWithContent.content, gardenState)
 }
 
-def createWoreWithContent(list: List[String]): WoreWithContent = {
+def createWoreWithContent(
+    list: List[String],
+    gardenLimits: Point): WoreWithContent = {
   val woreListContent = CreateListWore(list)
   val wore = woreListContent match {
-    case head :: tail => createWore(head)
+    case head :: tail => createWore(head, gardenLimits)
     case _            => exit(300)
   }
   val content = woreListContent match {
@@ -153,17 +161,28 @@ def createWoreWithContent(list: List[String]): WoreWithContent = {
   WoreWithContent(wore, content)
 }
 
-def createWore(input: String): Wore = {
+def createWore(input: String, gardenLimits: Point): Wore = {
   val woreListChar = createListCharWithString(input)
   val listInt = groupOptions(createListIsInt(woreListChar))
   val cardinal = mapListIntoCardinal(
     groupOptionsString(createListIsString(woreListChar))
   )
-  listInt match {
+  val wore = listInt match {
     case head :: second :: Nil => Wore(head.toInt, second.toInt, cardinal)
     case _                     => exit(200)
   }
 
+  // Vérification des limites ici
+  if (
+    wore.x < 0 || wore.y < 0 || wore.x > gardenLimits.x || wore.y > gardenLimits.y
+  ) {
+    println(
+      s"Tondeuse en dehors des limites du jardin : (${wore.x}, ${wore.y})"
+    )
+    exit(200)
+  } else {
+    wore
+  }
 }
 
 def CreateListWore(listString: List[String]): List[String] = {

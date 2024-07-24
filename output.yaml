@@ -1,10 +1,10 @@
 limite:
-  x: 5
-  y: 5
+  x: 1
+  y: 1
   tondeuses:
   - debut:
       point:
-        x: 1
+        x: 2
         y: 2
       direction: N
     instructions: 
@@ -20,7 +20,7 @@ limite:
   - fin:
       point:
         x: 1
-        y: 3
+        y: 1
       direction: N
   - debut:
       point:
@@ -40,6 +40,6 @@ limite:
        - A
   - fin:
       point:
-        x: 5
+        x: 1
         y: 1
       direction: E

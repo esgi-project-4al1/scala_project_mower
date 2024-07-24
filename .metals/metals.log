@@ -1579,3 +1579,4 @@ AVERTISSEMENT: Unmatched cancel notification for request id 24
 juil. 23, 2024 5:32:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 AVERTISSEMENT: Unmatched cancel notification for request id 158
 2024.07.23 17:32:06 WARN  Could not load snapshot text for C:\Users\yassi\OneDrive\Bureau\4al_Sem2\SCALA\scalaPROJET\scala_project_mower\src\main\scala\progfun\Main.scala
+2024.07.24 16:55:36 INFO  Started: Metals version 1.3.3 in folders 'C:\Users\nourd\scala_project_mower' for client Visual Studio Code 1.91.0.
